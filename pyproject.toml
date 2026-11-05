@@ -1,0 +1,17 @@
+[project]
+name = "orvn"
+version = "1.0.0"
+description = "A modern, developer-friendly Python full-stack framework for building scalable web applications with file-based routing, server-side rendering, and reusable components."
+readme = "README.md"
+authors = [
+    { name = "Rafid Ahmed", email = "rafidahmed870@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+orvn = "orvn:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
